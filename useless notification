@@ -1,0 +1,9 @@
+local function noti(title,text,duration)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = title, 
+		Text = text, 
+		Duration = duration
+	})
+end
+
+noti("CA$HOUT Script loaded","discord.gg/codhc",3)
